@@ -8,7 +8,7 @@ export const DATA = {
   location: "Valencia, Spain",
   locationLink: "https://www.google.com/maps/place/valencia",
   description:
-    "Freelance Software Engineer. I help indie hackers and startups to build their products 10x faster!",
+    "Freelance Software Engineer. I help Indie Hackers and Startups to build their products!",
   summary:
     "At the end of 2025, I quit my job as a software engineer to go fulltime into become Freelance Engineer and building my own businesses. In the past, [I pursued a double degree in computer science](/#education), I worked at Scale-Ups, Banks and FinTech companies in Europe, and launch +4 failed [startups](/#startups).",
   avatarUrl: "/me.jpeg",
@@ -34,6 +34,13 @@ export const DATA = {
     email: "r.solerginer@gmail.com",
     tel: "+34 600200862",
     social: {
+      Email: {
+        name: "Email",
+        url: "mailto:r.solerginer@gmail.com",
+        icon: Icons.email,
+
+        navbar: true,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/RSginer",

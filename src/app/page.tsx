@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import ButtonsSection from "@/components/buttons-section";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -49,6 +49,7 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+      <ButtonsSection></ButtonsSection>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
