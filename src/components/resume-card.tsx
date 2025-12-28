@@ -80,7 +80,11 @@ export const ResumeCard = ({
               </div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
-            <a className="text-xs flex items-center gap-1 mt-2" href={href}>
+            <a
+              target="__blank"
+              className="text-xs flex items-center gap-1 mt-2"
+              href={href}
+            >
               <b>{href}</b>
             </a>
           </CardHeader>

@@ -105,9 +105,9 @@ export const DATA = {
     },
     {
       company: "Mimacom",
-      href: "https://nvidia.com/",
+      href: "https://mimacom.com/",
       badges: [],
-      location: "Santa Clara, CA",
+      location: "Valencia, Spain",
       title: "Software Engineer",
       logoUrl: "/nvidia.png",
       start: "January 2020",
