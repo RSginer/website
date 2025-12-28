@@ -50,17 +50,17 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/rubensolerweb",
         icon: Icons.x,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
+      //      Youtube: {
+      //        name: "Youtube",
+      //        url: "https://dub.sh/dillion-youtube",
+      //        icon: Icons.youtube,
+      //        navbar: true,
+      //      },
       email: {
         name: "Send Email",
         url: "#",
@@ -73,28 +73,28 @@ export const DATA = {
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
-      badges: [],
+      company: "QuickLaunch",
+      href: "https://quicklaunchyoursaas.com",
+      badges: ["AI", "SaaS", "Starter-Kit"],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Founder",
+      logoUrl: "/quicklaunch.jpeg",
+      start: "Dec 2025",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Build a AI SaaS starter kit to help Startups and Indie Hackers to launch their MVPs 10x faster!",
     },
     {
-      company: "Shopify",
+      company: "Mercadona Tech",
       badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
+      href: "https://mercadona.es",
+      location: "Valencia, Spain",
       title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
+      logoUrl: "/mercadonatech.jpeg",
+      start: "Sep 2025",
+      end: "Dec 2025",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Develop ACMOfy product, a custom Zendesk application builded in React for Customer Support in Mercadona Online.",
     },
     {
       company: "Nvidia",
