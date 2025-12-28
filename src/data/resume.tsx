@@ -104,7 +104,7 @@ export const DATA = {
         "Develop ACMOfy product, a custom Zendesk application builded in React for Customer Support in Mercadona Online.",
     },
     {
-      company: "Nvidia",
+      company: "Mimacom",
       href: "https://nvidia.com/",
       badges: [],
       location: "Santa Clara, CA",

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardHeader } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { ChevronRightIcon } from "lucide-react";
+import { ChevronRightIcon, Globe } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -31,19 +31,14 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+  const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
     if (description) {
-      e.preventDefault();
       setIsExpanded(!isExpanded);
     }
   };
 
   return (
-    <Link
-      href={href || "#"}
-      className="block cursor-pointer"
-      onClick={handleClick}
-    >
+    <div className="block cursor-pointer" onClick={handleClick}>
       <Card className="flex">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
@@ -85,6 +80,9 @@ export const ResumeCard = ({
               </div>
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+            <a className="text-xs flex items-center gap-1 mt-2" href={href}>
+              <b>{href}</b>
+            </a>
           </CardHeader>
           {description && (
             <motion.div
@@ -105,6 +103,6 @@ export const ResumeCard = ({
           )}
         </div>
       </Card>
-    </Link>
+    </div>
   );
 };
