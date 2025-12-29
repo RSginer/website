@@ -168,8 +168,8 @@ export default function Page() {
                   When I have time, I enjoy contributing to open-source
                   projects. Collaborating with developers from around the world
                   to build meaningful tools and features is both challenging and
-                  rewarding. It's inspiring to see how a group of motivated and
-                  passionate individuals can bring powerful ideas to life
+                  rewarding. It&apos;s inspiring to see how a group of motivated
+                  and passionate individuals can bring powerful ideas to life
                   through shared effort and creativity.
                 </p>
               </div>
