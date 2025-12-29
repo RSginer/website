@@ -8,7 +8,7 @@ const ButtonsSection = () => {
   return (
     <section className="w-full flex">
       <BlurFade className="" delay={BLUR_FADE_DELAY * 4.5}>
-        <p className="pl-4 text-md font-bold mb-2">Do you have questions?</p>
+        <p className="pl-4 text-md font-bold mb-4">Do you have questions?</p>
         <div className="flex items-center gap-4">
           <Button
             onClick={() => {
@@ -29,7 +29,7 @@ const ButtonsSection = () => {
           </span>
         </div>
         <div className="pl-6">
-          <p className="text-sm font-bold mb-4 mt-4 flex items-center gap-2">
+          <p className="text-sm font-bold mb-4 mt-3 flex items-center gap-2">
             {" "}
             <img src="/whatsapp.svg" className="w-8 h-8" alt="Whatsapp logo" />
             Whatsapp

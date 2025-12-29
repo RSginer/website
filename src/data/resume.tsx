@@ -11,7 +11,7 @@ export const DATA = {
     "Product Engineer. I help Indie Hackers and Startups to build their products!",
   summary:
     "At the end of 2025, I quit my job as a software engineer to go fulltime into become Freelance Engineer and building my own businesses. In the past, [I pursued a double degree in computer science](/#education), I worked at Scale-Ups, Banks and FinTech companies in Europe, and launch +4 failed [startups](/#startups).",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/me-1.jpeg",
   skills: [
     "React",
     "Next.js",
@@ -94,10 +94,10 @@ export const DATA = {
     },
     {
       company: "Mercadona Tech",
-      badges: [],
+      badges: ["eXtreme Programming", "TDD"],
       href: "https://mercadona.es",
       location: "Valencia, Spain",
-      title: "Software Engineer",
+      title: "Product Engineer",
       logoUrl: "/mercadonatech.jpeg",
       start: "Sep 2025",
       end: "Dec 2025",
@@ -107,50 +107,58 @@ export const DATA = {
     {
       company: "Mimacom",
       href: "https://mimacom.com/",
+      badges: ["AI", "DevOps"],
+      location: "Valencia, Spain",
+      title: "Product Engineer",
+      logoUrl: "/mimacom.jpg",
+      start: "January 2020",
+      end: "Sep 2025",
+      description: `Designed and implemented modern frontend architectures, improving
+UX, responsiveness, and performance. Built scalable, reusable UI
+components using React, Next.js, Vue.js, React Native, and
+microfrontend architectures across e-banking, fleet management,
+digital banking, AR supermarket apps, and media management tools. \n
+Developed microservices, integrated event-driven and cloud-based
+architectures, generated APIs with OpenAPI, deployed services, and
+conducted technical debt audits to enhance system architecture,
+scalability, and performance..
+`,
+    },
+    {
+      company: "EXP360",
+      href: "https://exp360.com/",
+      badges: ["VR", "AI", "SaaS"],
+      location: "Berlin, Germany",
+      title: "Product Engineer",
+      logoUrl: "/exp360.jpg",
+      start: "Nov 2018",
+      end: "Jan 2020",
+      description:
+        "Develop a software product to manage Virtual Reality contents in multiple environments.",
+    },
+    {
+      company: "Finametrix (adquired by Allfunds)",
+      href: "https://allfunds.com/en/",
       badges: [],
       location: "Valencia, Spain",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
+      title: "Product Engineer",
+      logoUrl: "/allfunds.jpg",
       start: "January 2018",
       end: "April 2018",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+        "Design architecture and develop new product after merge the company with Allfunds Bank.",
     },
     {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
+      company: "Gnommo Studios",
+      href: "",
       badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
+      location: "Valencia, Spain",
+      title: "Product Engineer",
+      logoUrl: "/gnome.jpg",
       start: "May 2017",
       end: "August 2017",
       description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+        "Develop software for startups with new technologies and frameworks.",
     },
   ],
   education: [
