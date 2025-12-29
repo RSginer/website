@@ -1,6 +1,6 @@
 "use client";
 
-import { Calendar, Mail } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { Button } from "./ui/button";
 import BlurFade from "./magicui/blur-fade";
 const BLUR_FADE_DELAY = 0.04;
@@ -8,7 +8,7 @@ const ButtonsSection = () => {
   return (
     <section className="w-full flex">
       <BlurFade className="" delay={BLUR_FADE_DELAY * 4.5}>
-        <p className="pl-4 text-md font-bold mb-6">Do you have questions?</p>
+        <p className="pl-4 text-md font-bold mb-2">Do you have questions?</p>
         <div className="flex items-center gap-4">
           <Button
             onClick={() => {
@@ -27,6 +27,19 @@ const ButtonsSection = () => {
               r.solerginer@gmail.com
             </a>
           </span>
+        </div>
+        <div className="pl-6">
+          <p className="text-sm font-bold mb-4 mt-4 flex items-center gap-2">
+            {" "}
+            <img src="/whatsapp.svg" className="w-8 h-8" alt="Whatsapp logo" />
+            Whatsapp
+          </p>
+          <p className="text-sm">
+            Write me to{" "}
+            <a className="font-bold" href="https://wa.me/34600200862">
+              +34 600 200 862
+            </a>
+          </p>
         </div>
       </BlurFade>
     </section>
