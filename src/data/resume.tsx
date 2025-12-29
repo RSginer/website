@@ -225,7 +225,7 @@ scalability, and performance..
   hackathons: [
     {
       title: "Wrapito",
-      location: "React, Javascript",
+      location: "React, TypeScript, Javascript",
       description:
         "Testing library on top of Vitest. Wrap you tests so that you can test both behaviour and components with less effort.",
       image: "/mercadonatech.jpeg",
@@ -239,7 +239,7 @@ scalability, and performance..
     },
     {
       title: "PrimeReact",
-      location: "React, Javascript",
+      location: "React, TypeScript, Javascript",
       description:
         "PrimeReact is a rich set of open source UI Components for React.",
       image: "/primetek.png",
@@ -247,6 +247,19 @@ scalability, and performance..
         {
           type: "Source",
           href: "https://github.com/primefaces/primereact",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+    },
+    {
+      title: "Akveo",
+      location: "Angular, TypeScript, Javascript",
+      description: "Angular Smart Data Table component.",
+      image: "/primetek.png",
+      links: [
+        {
+          type: "Source",
+          href: "akveo.github.io/ng2-smart-table/",
           icon: <Icons.github className="size-3" />,
         },
       ],
