@@ -132,7 +132,7 @@ export default function Page() {
             </div>
           </BlurFade>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
-            {DATA.projects.map((project, id) => (
+            {DATA.projects.map((project: any, id) => (
               <BlurFade
                 key={project.title}
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
@@ -159,18 +159,18 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Open Source Contributions
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  When I have time, I enjoy contributing to open-source
+                  projects. Collaborating with developers from around the world
+                  to build meaningful tools and features is both challenging and
+                  rewarding. It's inspiring to see how a group of motivated and
+                  passionate individuals can bring powerful ideas to life
+                  through shared effort and creativity.
                 </p>
               </div>
             </div>

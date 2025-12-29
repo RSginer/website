@@ -23,12 +23,15 @@ const ButtonsSection = () => {
           </Button>
           <span className="text-sm">
             Or write me an email to{" "}
-            <a className="font-bold" href="mailto:r.solerginer@gmail.com">
+            <a
+              className="font-bold underline text-blue-700"
+              href="mailto:r.solerginer@gmail.com"
+            >
               r.solerginer@gmail.com
             </a>
           </span>
         </div>
-        <div className="pl-6">
+        <div className="pl-6 mt-4">
           <p className="text-sm font-bold mb-4 mt-3 flex items-center gap-2">
             {" "}
             <img src="/whatsapp.svg" className="w-8 h-8" alt="Whatsapp logo" />
@@ -36,7 +39,10 @@ const ButtonsSection = () => {
           </p>
           <p className="text-sm">
             Write me to{" "}
-            <a className="font-bold" href="https://wa.me/34600200862">
+            <a
+              className="font-bold  underline text-blue-700"
+              href="https://wa.me/34600200862"
+            >
               +34 600 200 862
             </a>
           </p>
