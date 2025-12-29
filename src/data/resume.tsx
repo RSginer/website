@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Rubén Soler",
   initials: "RS",
-  url: "https://dillion.io",
+  url: "https://rubensolerweb.com",
   location: "Valencia, Spain",
   locationLink: "https://www.google.com/maps/place/valencia",
   description:
@@ -27,6 +27,7 @@ export const DATA = {
     "Javascript",
     "Linux",
     "MongoDB",
+    "Mastra AI",
     "MySQL",
   ],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
