@@ -255,7 +255,7 @@ scalability, and performance..
       title: "Akveo",
       location: "Angular, TypeScript, Javascript",
       description: "Angular Smart Data Table component.",
-      image: "/primetek.png",
+      image: "/akveo.jpg",
       links: [
         {
           type: "Source",
