@@ -8,7 +8,7 @@ export const DATA = {
   location: "Valencia, Spain",
   locationLink: "https://www.google.com/maps/place/valencia",
   description:
-    "Product Engineer. I help Indie Hackers and Startups to build their products!",
+    "Product Engineer. I help Startups to build and scale their products!",
   summary:
     "At the end of 2025, I quit my job as a software engineer to go fulltime into become Freelance Engineer and building my own businesses. In the past, [I pursued a double degree in computer science](/#education), I worked at Scale-Ups, Banks and FinTech companies in Europe.",
   avatarUrl: "/me-1.jpeg",
@@ -81,16 +81,15 @@ export const DATA = {
 
   work: [
     {
-      company: "QuickLaunch",
-      href: "https://quicklaunchyoursaas.com",
-      badges: ["AI", "SaaS", "Starter-Kit"],
+      company: "Freelance",
+      href: "https://rubensolerweb.com",
+      badges: ["AI", "SaaS", "TypeScript", "React", "JS"],
       location: "Remote",
-      title: "Founder",
-      logoUrl: "/quicklaunch.jpeg",
+      title: "Product Engineer",
+      logoUrl: "/me.jpeg",
       start: "Dec 2025",
       end: "Present",
-      description:
-        "Build a AI SaaS starter kit to help Startups and Indie Hackers to launch their MVPs 10x faster!",
+      description: "I can help you to launch, evolve and scale your Startup!",
     },
     {
       company: "Mercadona Tech",
