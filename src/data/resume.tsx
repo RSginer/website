@@ -180,8 +180,7 @@ scalability, and performance..
   ],
   projects: [
     {
-      title: "QuickLaunch",
-      href: "https://quicklaunchyoursaas.com",
+      title: "AI SaaS Starter Kit",
       dates: "Dec 2025 - Present",
       active: true,
       description: `You have a great product idea. Maybe it's an AI tool, a B2B SaaS, or a new take on an existing problem. With our solution, you only pay for the features that really matter for your business.`,
@@ -194,13 +193,6 @@ scalability, and performance..
         "COG",
         "Hero UI",
         "Better-Auth",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://quicklaunchyoursaas.com",
-          icon: <Icons.globe className="size-3" />,
-        },
       ],
       image: "/quicklaunch-screenshot.png",
     },
