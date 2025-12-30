@@ -83,7 +83,7 @@ export const DATA = {
     {
       company: "Freelance",
       href: "https://rubensolerweb.com",
-      badges: ["AI", "SaaS", "TypeScript", "React", "JS"],
+      badges: ["AI", "SaaS", "Startups"],
       location: "Remote",
       title: "Product Engineer",
       logoUrl: "/me.jpeg",
