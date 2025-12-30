@@ -8,7 +8,7 @@ export const DATA = {
   location: "Valencia, Spain",
   locationLink: "https://www.google.com/maps/place/valencia",
   description:
-    "Product Engineer. I help Startups to build and scale their products!",
+    "Product Engineer. I can help your Startup to build and scale their products!",
   summary:
     "At the end of 2025, I quit my job as a software engineer to go fulltime into become Freelance Engineer and building my own businesses. In the past, [I pursued a double degree in computer science](/#education), I worked at Scale-Ups, Banks and FinTech companies in Europe.",
   avatarUrl: "/me-1.jpeg",
